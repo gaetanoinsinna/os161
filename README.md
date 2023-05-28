@@ -6,11 +6,12 @@ I struggled with create several version of os161 because several reason (version
 
 I solved in this way:
 1) cloning the clean version of os161
-2) go to this path
+2) go to ```defs.mk``` in ```<clonedfolder>/src```
 ```c
 <clonedfolder>/src/defs.mk
 ```
-3) change ```c OSTREE```
+3) change ```OSTREE```
+4) 
 ```c
 OSTREE=/home/os161user/os161/root
 ```
