@@ -11,7 +11,6 @@ I solved in this way:
 <clonedfolder>/src/defs.mk
 ```
 3) change ```OSTREE```
-4) 
 ```c
 OSTREE=/home/os161user/os161/root
 ```
