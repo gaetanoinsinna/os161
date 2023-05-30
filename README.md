@@ -31,7 +31,7 @@ In order to access to the path you have to prepend the name of the container
 <CONTAINER-NAME>:/home/os161user
 
 ```
-A command could be 
+To copy the folder from os161 to our filesys, we could use:
 ```
 docker cp polito-os161:/home/os161user/lab0 /Users
 ```
