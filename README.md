@@ -19,7 +19,7 @@ in
 OSTREE=/home/os161user/<clonedfolder>/root
 ```
 
-h3 docker-container
+### docker-container
 Some useful commands:
 
 ```
