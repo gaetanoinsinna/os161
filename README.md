@@ -18,3 +18,20 @@ in
 ```c
 OSTREE=/home/os161user/<clonedfolder>/root
 ```
+
+#docker-container
+Some useful commands:
+
+```
+docker cp <SOURCE-PATH> <DEST-PATH>
+```
+In order to access to the path you have to prepend the name of the container
+
+```
+<CONTAINER-NAME>:/home/os161user
+
+```
+A command could be 
+```
+docker cp polito-os161:/home/os161user/lab0 /Users
+```
