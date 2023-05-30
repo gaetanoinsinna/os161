@@ -19,7 +19,7 @@ in
 OSTREE=/home/os161user/<clonedfolder>/root
 ```
 
-### docker-container
+# docker-container
 Some useful commands:
 
 ```
@@ -33,5 +33,5 @@ In order to access to the path you have to prepend the name of the container
 ```
 To copy the folder from os161 to our filesys, we could use:
 ```
-docker cp polito-os161:/home/os161user/lab0 /Users
+docker cp polito-os161:/home/os161user/os161 /Users
 ```
